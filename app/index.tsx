@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import ToggleApp from "./components/1.ToggleApp/ToggleApp";
 import WeatherApp from "./components/2.WeatherApp/WeatherApp";
+import ColorPicker from "./components/3.ColorPicker/ColorPicker";
 
 export default function Page() {
   return (
@@ -11,7 +12,10 @@ export default function Page() {
 
         {/* <ToggleApp /> */}
 
-        <WeatherApp/>
+        {/* <WeatherApp/> */}
+
+        <ColorPicker />
+
 
       </View>
     </View>
