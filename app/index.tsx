@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import ToggleApp from "./components/1.ToggleApp/ToggleApp";
+import WeatherApp from "./components/2.WeatherApp/WeatherApp";
 
 export default function Page() {
   return (
@@ -8,7 +9,9 @@ export default function Page() {
         {/* <Text style={styles.title}>Hello World</Text> */}
         {/* <Text style={styles.subtitle}>This is the first page of your app.</Text> */}
 
-        <ToggleApp />
+        {/* <ToggleApp /> */}
+
+        <WeatherApp/>
 
       </View>
     </View>
