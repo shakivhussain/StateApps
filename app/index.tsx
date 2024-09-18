@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import ToggleApp from "./components/1.ToggleApp/ToggleApp";
 import WeatherApp from "./components/2.WeatherApp/WeatherApp";
 import ColorPicker from "./components/3.ColorPicker/ColorPicker";
+import ToDoApp from "./components/4.TodoApp/ToDoApp";
 
 export default function Page() {
   return (
@@ -14,8 +15,9 @@ export default function Page() {
 
         {/* <WeatherApp/> */}
 
-        <ColorPicker />
+        {/* <ColorPicker /> */}
 
+        <ToDoApp />
 
       </View>
     </View>
@@ -24,8 +26,8 @@ export default function Page() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: "center",
+    flex: 2,
+    alignItems: 'stretch',
     padding: 24,
   },
   main: {
